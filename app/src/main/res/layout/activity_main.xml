@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff2e6"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,13 +15,29 @@
         android:layout_marginTop="138dp"
         android:fontFamily="serif"
         android:text="@string/wellcome_to_knowlage_hub"
-        android:textSize="40sp"
-        android:textStyle="italic"
         android:textAlignment="center"
         android:textColor="#353E4A"
+        android:textSize="40sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="182dp"
+        android:fontFamily="serif"
+        android:text="@string/let_s_go"
+        android:textAllCaps="false"
+        android:textColor="#082851"
+        android:backgroundTint="#ffb366"
+        android:textSize="20sp"
+
+        />
 
 </RelativeLayout>
