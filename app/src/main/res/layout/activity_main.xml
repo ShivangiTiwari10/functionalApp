@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="271dp"
         android:layout_height="206dp"
         android:layout_alignParentTop="true"
@@ -25,17 +26,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGo"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="182dp"
+        android:backgroundTint="#ffb366"
         android:fontFamily="serif"
         android:text="@string/let_s_go"
         android:textAllCaps="false"
         android:textColor="#082851"
-        android:backgroundTint="#ffb366"
         android:textSize="20sp"
 
         />
