@@ -24,6 +24,10 @@ class Technologies : AppCompatActivity() {
             val intent = Intent(this, AndroidAppDev::class.java)
             startActivity(intent)
         }
+        binding.cardView2.setOnClickListener {
+            val intent = Intent(this, MachinLern::class.java)
+            startActivity(intent)
+        }
 
         setContentView(binding.root)
     }
