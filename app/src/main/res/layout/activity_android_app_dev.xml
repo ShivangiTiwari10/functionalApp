@@ -43,6 +43,7 @@
             app:civ_border_width="2dp" />
 
         <TextView
+            android:id="@+id/kotlin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -77,6 +78,7 @@
 
 
         <TextView
+            android:id="@+id/java"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -106,6 +108,7 @@
             app:civ_border_width="2dp" />
 
         <TextView
+            android:id="@+id/python"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -134,6 +137,7 @@
             app:civ_border_width="2dp" />
 
         <TextView
+            android:id="@+id/cPlus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
