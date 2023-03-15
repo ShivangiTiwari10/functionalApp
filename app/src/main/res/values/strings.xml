@@ -2,4 +2,11 @@
     <string name="app_name">FunctionalApp</string>
     <string name="wellcome_to_knowlage_hub">Welcome to Soumya knowledge Hub</string>
     <string name="let_s_go">Let\'s Go</string>
+    <string name="android_app_development">Android app Development</string>
+    <string name="web_development">web Development</string>
+    <string name="machene_learning">Machene learning</string>
+    <string name="block_development">Block Development</string>
+    <string name="web_3">web 3</string>
+    <string name="call_us">call us</string>
+    <string name="ios_app_develop">IOS App Develop</string>
 </resources>
