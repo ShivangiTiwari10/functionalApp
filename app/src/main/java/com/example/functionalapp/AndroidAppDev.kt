@@ -15,11 +15,41 @@ class AndroidAppDev : AppCompatActivity() {
         binding = ActivityAndroidAppDevBinding.inflate(layoutInflater)
 
         binding.kotlin.setOnClickListener {
-            val webIntent: Intent = Uri.parse("https://developer.android.com/kotlin").let { webpage ->
-                Intent(Intent.ACTION_VIEW, webpage)
-            }
+            val webIntent: Intent =
+                Uri.parse("https://developer.android.com/kotlin").let { webpage ->
+                    Intent(Intent.ACTION_VIEW, webpage)
+                }
             startActivity(webIntent)
         }
+
+        binding.java.setOnClickListener {
+            val webIntent: Intent =
+                Uri.parse("https://developer.android.com/codelabs/build-your-first-android-app#0")
+                    .let { webpage ->
+                        Intent(Intent.ACTION_VIEW, webpage)
+                    }
+            startActivity(webIntent)
+        }
+
+
+        binding.python.setOnClickListener {
+            val webIntent: Intent =
+                Uri.parse("https://python-for-android.readthedocs.io/en/latest/")
+                    .let { webpage ->
+                        Intent(Intent.ACTION_VIEW, webpage)
+                    }
+            startActivity(webIntent)
+        }
+
+        binding.cPlus.setOnClickListener {
+            val webIntent: Intent =
+                Uri.parse("https://developer.android.com/studio/projects/add-native-code")
+                    .let { webpage ->
+                        Intent(Intent.ACTION_VIEW, webpage)
+                    }
+            startActivity(webIntent)
+        }
+
         setContentView(binding.root)
     }
 }
