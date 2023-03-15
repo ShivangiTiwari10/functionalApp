@@ -20,6 +20,11 @@ class Technologies : AppCompatActivity() {
             }
             startActivity(callIntent)
         }
+        binding.cardView.setOnClickListener {
+            val intent = Intent(this, AndroidAppDev::class.java)
+            startActivity(intent)
+        }
+
         setContentView(binding.root)
     }
 }
